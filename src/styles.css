@@ -1,0 +1,204 @@
+* {
+  font-family: Arial, Verdana;
+}
+
+body {
+  background: black;
+}
+
+header,
+footer,
+article#privilege,
+article.article {
+  background: white;
+  border: solid 1px black;
+  padding: 1em;
+  font-size: 1.25em;
+}
+
+article {
+  background: white;
+  border: solid 1px black;
+  font-size: 1.25em;
+  padding-right: 0.5em;
+}
+
+div#content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+#heading {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+#logo {
+  float: left;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+}
+
+h1 {
+  text-align: right;
+  vertical-align: 0;
+  line-height: 60px;
+  clear: right;
+}
+
+form {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-top: 1em;
+}
+
+form select,
+form input {
+  padding: 0.5em;
+  font-size: 1em;
+  background: black;
+  color: white;
+}
+
+form select:hover,
+form input:hover {
+  cursor: pointer;
+}
+
+form input:hover {
+  background-color: gray;
+}
+
+div.form-element {
+  background: white;
+}
+
+label {
+  text-align: left;
+  position: relative;
+  width: 100%;
+  left: 0;
+  display: block;
+}
+
+select {
+  text-align: right;
+  position: relative;
+  width: 100%;
+  right: 0;
+  display: block;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+p {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding: 0;
+}
+
+nav ul,
+nav ul li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+nav li {
+  display: inline-block;
+  background: black;
+  padding: 0.5em;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+}
+
+nav li a,
+nav li {
+  color: white;
+  text-decoration: none;
+}
+
+nav li.selected {
+  background: white;
+  color: black;
+  border: solid 0.25px black;
+}
+
+nav li a:hover,
+nav li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+nav li input {
+  width: inherit;
+  padding: 0;
+  font-size: inherit;
+  background: inherit;
+  color: white;
+  border: none;
+}
+
+nav li input:hover {
+  background-color: inherit;
+}
+
+footer {
+  text-align: right;
+}
+
+  footer a {
+    color: black;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+  }
+
+@media (min-width: 610px) and (max-width: 1025px) {
+  div#content {
+    width: 90%;
+  }
+  h1 {
+    text-align: left;
+    padding-left: 1em;
+  }
+  #logo {
+    height: 50px;
+  }
+}
+
+@media (min-width: 1026px) {
+  div#content {
+    min-width: 1025px;
+    width: 35%;
+    max-width: 1225px;
+    min-width: ;
+  }
+  h1 {
+    text-align: left;
+    padding-left: 1em;
+  }
+  #logo {
+    height: 50px;
+  }
+}

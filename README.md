@@ -1,2 +1,0 @@
-# privilege
-Created with CodeSandbox
