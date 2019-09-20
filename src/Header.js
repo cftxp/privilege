@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Header.css";
 
 // Header Components:
 import Form from "./Form";
@@ -76,10 +75,10 @@ class Header extends Component {
         <hr />
         <nav>
           <ul>
-            {/* 
-              For each list item, value = Selected state 
-              and selectedNumber is called on the targeted 
-              item on each click event 
+            {/*
+              For each list item, value = Selected state
+              and selectedNumber is called on the targeted
+              item on each click event
             */}
             <li
               ref={ref => (this.one = ref)}

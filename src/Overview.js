@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Overview.css";
 
 class Overview extends Component {
   render() {

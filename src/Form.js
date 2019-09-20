@@ -1,5 +1,4 @@
 import React from "react";
-import "./Form.css";
 
 class Form extends React.Component {
   render() {
@@ -9,8 +8,8 @@ class Form extends React.Component {
         {/* Select the privileged group: */}
         <div className="form-element">
           <label htmlFor="race">Privileged Group:</label>
-          {/* 
-            The value is the race property and, 
+          {/*
+            The value is the race property and,
             on selection, call the changeRace function
           */}
           <select
@@ -30,8 +29,8 @@ class Form extends React.Component {
         {/* Select the indigenous group: */}
         <div className="form-element">
           <label htmlFor="indigenous">Indigenous Group:</label>
-          {/* 
-            The value is the indigenous property and, 
+          {/*
+            The value is the indigenous property and,
             on selection, call the changeIndigenous function
           */}
           <select
@@ -51,8 +50,8 @@ class Form extends React.Component {
         {/* Select the enslaved group: */}
         <div className="form-element">
           <label htmlFor="enslaved">Enslaved Group:</label>
-          {/* 
-            The value is the enslaved property and, 
+          {/*
+            The value is the enslaved property and,
             on selection, call the changeEnslaved function
           */}
           <select
@@ -72,8 +71,8 @@ class Form extends React.Component {
         {/* Select the othered group: */}
         <div className="form-element">
           <label htmlFor="othered">Othered Group:</label>
-          {/* 
-            The value is the othered property and, 
+          {/*
+            The value is the othered property and,
             on selection, call the changeOthered function
           */}
           <select

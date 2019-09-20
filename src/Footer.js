@@ -1,5 +1,4 @@
 import React from "react";
-import "./Footer.css";
 
 // Import the Year component that shows the current year:
 import Year from "./Year";
