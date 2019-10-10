@@ -16,10 +16,7 @@ class Footer extends React.Component {
           Woke Us Designs
         </a>{" "}
         &copy; <Year />. ||{" "}
-        <a href="https://privilege.php.chrisfornesa.com" className="App-link">
-          This site in PHP
-        </a>
-        .
+        This site in: <a href="https://privilege.php.chrisfornesa.com" className="App-link">PHP</a> | <a href="https://privilege.django.chrisfornesa.com" className="App-link">Django</a>.
       </footer>
     );
   }
